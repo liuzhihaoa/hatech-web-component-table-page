@@ -1,0 +1,59 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "element-ui": "^2.14.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "hatech-web-component-dialog": "0.0.2",
+    "hatech-web-component-form": "^1.0.1",
+    "hatech-web-component-form-dialog": "^1.0.1",
+    "hatech-web-component-icon": "0.0.2",
+    "hatech-web-component-pagination": "0.0.1",
+    "hatech-web-component-table": "0.0.14",
+    "hatech-web-component-tree": "0.0.1",
+    "hatech-web-core": "0.0.50",
+    "hatech-web-theme-darkblue": "0.0.19",
+    "hatech-web-theme-loader": "0.0.8",
+    "hatech-web-utils": "^0.1.8",
+    "sass-loader": "^10.0.3",
+    "vue": "^2.6.11",
+    "vue-router": "^3.4.9",
+    "vuex": "^3.6.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "node-sass": "^4.14.1",
+    "svg-sprite-loader": "^5.2.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

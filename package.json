@@ -1,0 +1,35 @@
+{
+  "name": "hatech-web-component-table-page",
+  "version": "2.0.33",
+  "description": "前端页面组件",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.hatech.com.cn:8088/hatech-web/hatech-web-template-component.git"
+  },
+  "keywords": [
+    "table-page"
+  ],
+  "author": {
+    "name": "wuhao",
+    "email": "wuhaowh@hatech.com.cn"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "hatech-web-component": "0.0.8",
+    "hatech-web-component-form": "^1.0.5",
+    "hatech-web-component-form-dialog": "^1.0.1",
+    "hatech-web-component-icon": "0.0.2",
+    "hatech-web-component-pagination": "0.0.1",
+    "hatech-web-component-table": "0.0.18",
+    "hatech-web-component-tree": "0.0.1",
+    "hatech-web-utils": "^0.1.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.1.0"
+  }
+}
